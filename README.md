@@ -1,1 +1,1 @@
-# NFT Marketplace - CryptoKet
+# CryptoKet - Full stack NFT Marketplace built with Polygon, Solidity, IPFS, & Next.js
