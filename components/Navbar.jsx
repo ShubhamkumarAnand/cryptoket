@@ -30,11 +30,12 @@ const Navbar = () => {
             type="checkbox"
             className="checkbox"
             id="checkbox"
-            onChange={() => {}}
+            onChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
           />
           <label htmlFor="checkbox" className="relative w-8 h-4 p-1 bg-black flexBetween rounded-2xl label">
             <i className="fas fa-sun" />
             <i className="fas fa-moon" />
+            <div className="absolute w-3 h-3 bg-white rounded-full ball" />
           </label>
         </div>
       </div>
